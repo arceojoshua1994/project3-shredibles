@@ -2,7 +2,9 @@ import { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Products from './pages/Products';
+import Reviews from './pages/Reviews';
+import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
 export default function PageContainer() {
@@ -17,22 +19,22 @@ export default function PageContainer() {
       return <About />;
     }
     if (currentPage === 'Products') {
-      return <Blog />;
+      return <Products />;
     }
-   
-  if (currentPage === 'Reviews') {
-    return <Blog />;
-  }
-  
-if (currentPage === 'Gallery') {
-  return <Gallery />;
-}
 
-if (currentPage === 'Contact') {
-  return <Contact />;
-}
+    if (currentPage === 'Reviews') {
+      return <Reviews />;
+    }
 
-};
+    if (currentPage === 'Gallery') {
+      return <Gallery />;
+    }
+
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+
+  };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
