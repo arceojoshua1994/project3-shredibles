@@ -10179,19 +10179,19 @@
 }
 
 .text-color {
-  color: #08A045 !important;
+  color: #08A045;
 }
 
 a.text-color:hover, a.text-color:focus {
-  color: #073B3A !important;
+  color: #073B3A;
 }
 
 .text-hover-color {
-  color: #F5B700 !important;
+  color: #F5B700;
 }
 
 a.text-hover-color:hover, a.text-hover-color:focus {
-  color: #6BBF59 !important;
+  color: #6BBF59;
 }
 
 

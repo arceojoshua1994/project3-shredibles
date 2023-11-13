@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="container-lg position-relative p-0 px-lg-3" style={{ zIndex: '9' }}>
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" className="navbar-brand d-block d-lg-none">
-                    <h1 className="m-0 display-4 text-color"><span className="text--hover-color">SHRED</span>ibles</h1>
+                    <img src="/assets/images/logo/Shredibles-3 2.jpg" alt="Shredibles Logo" className="navbar-logo" />
                 </a>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
