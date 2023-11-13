@@ -10178,19 +10178,19 @@
   background-color: var(--primary);
 }
 
-.text-color {
+.title-color {
   color: #08A045;
 }
 
-a.text-color:hover, a.text-color:focus {
+a.title-color:hover, a.title-color:focus {
   color: #073B3A;
 }
 
-.text-hover-color {
+.title-secondary-color {
   color: #F5B700;
 }
 
-a.text-hover-color:hover, a.text-hover-color:focus {
+a.title-secondary-color:hover, a.title-secondary-color:focus {
   color: #6BBF59;
 }
 
