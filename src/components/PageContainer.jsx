@@ -6,6 +6,7 @@ import Products from './pages/Products';
 import Reviews from './pages/Reviews';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

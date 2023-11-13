@@ -2,18 +2,18 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-    <nav>
+    <header>
   
-    <div className="container-fluid bg-primary py-3 d-none d-md-block">
+    <div className="container-fluid bg-primary py-3 d-none d-md-block align-items-center">
         <div className="container">
             <div className="row">
                 <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div className="d-inline-flex align-items-center">
-                        <a className="text-white pr-3" href="">FAQs</a>
+                        <a className="text-white pr-3" href="#FAQ">FAQs</a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" href="">Help</a>
+                        <a className="text-white px-3" href="#Help">Help</a>
                         <span className="text-white">|</span>
-                        <a className="text-white pl-3" href="">Support</a>
+                        <a className="text-white pl-3" href="#Support">Support</a>
                     </div>
                 </div>
                 <div className="col-md-6 text-center text-lg-right">
@@ -43,7 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
    
     <div className="container-fluid position-relative nav-bar p-0">
-        <div className="container-lg position-relative p-0 px-lg-3" style={{ z-index: '9' }}>
+        <div className="container-lg position-relative p-0 px-lg-3" style={{ zIndex: '9' }}>
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" className="navbar-brand d-block d-lg-none">
                     <h1 className="m-0 display-4 text-primary"><span className="text-secondary">SHRED</span>ibles</h1>
@@ -70,7 +70,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </div>
     </div>
     
-    </nav>
+    </header>
    
   );
 }
