@@ -40,10 +40,11 @@ export default function PageContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+    
       <main className="mx-3">{renderPage()}</main>
+      <Footer />
     </div>
   );
 }
