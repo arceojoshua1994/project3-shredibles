@@ -10174,9 +10174,25 @@
     background-size: cover;
 }
 
+.top-links {
+  background-color: var(--primary);
+}
 
+.text-color {
+  color: #08A045 !important;
+}
 
+a.text-color:hover, a.text-color:focus {
+  color: #073B3A !important;
+}
 
+.text-hover-color {
+  color: #F5B700 !important;
+}
+
+a.text-hover-color:hover, a.text-hover-color:focus {
+  color: #6BBF59 !important;
+}
 
 
 

@@ -4,10 +4,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 
     <header>
   
-    <div className="container-fluid bg-primary py-3 d-none d-md-block align-items-center">
-        <div className="container">
+    <div className="top-links container-fluid py-3 d-none d-md-block">
+        <div className="top-links container">
             <div className="row">
-                <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div className="top-links col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div className="d-inline-flex align-items-center">
                         <a className="text-white pr-3" href="#FAQ">FAQs</a>
                         <span className="text-white">|</span>
@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="container-lg position-relative p-0 px-lg-3" style={{ zIndex: '9' }}>
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" className="navbar-brand d-block d-lg-none">
-                    <h1 className="m-0 display-4 text-primary"><span className="text-secondary">SHRED</span>ibles</h1>
+                    <h1 className="m-0 display-4 text-color"><span className="text--hover-color">SHRED</span>ibles</h1>
                 </a>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
