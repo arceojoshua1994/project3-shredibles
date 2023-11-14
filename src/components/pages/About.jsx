@@ -10,7 +10,7 @@ export default function About() {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <div className="owl-carousel team-carousel">
+                    <div>
                      
                         <div className="team-item col-lg-3 col-md-6 mb-4">
                             <div className="team-img mx-auto">

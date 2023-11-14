@@ -6361,7 +6361,7 @@
   a.bg-primary:hover, a.bg-primary:focus,
   button.bg-primary:hover,
   button.bg-primary:focus {
-    background-color: #eb6891 !important;
+    background-color: #08A045 !important;
   }
   
   .bg-secondary {
@@ -9996,7 +9996,7 @@
   }
   
   .product-item:hover {
-    background: #62C3E7 !important;
+    background: #F5B700 !important;
   }
   
   .product-item:hover h5 {
