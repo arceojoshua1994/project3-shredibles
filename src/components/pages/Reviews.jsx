@@ -4,7 +4,7 @@ export default function Reviews() {
       <div className="container py-5">
           <div className="row justify-content-center">
               <div className="col-lg-6">
-                  <h1 className="section-title position-relative text-center mb-5">Clients Say About Our Famous Ice Cream</h1>
+                  <h1 className="section-title position-relative text-center mb-5">High-Quality Products for Highly-Driven Customers</h1>
               </div>
           </div>
           <div className="row justify-content-center">
