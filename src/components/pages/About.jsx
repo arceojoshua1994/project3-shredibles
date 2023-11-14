@@ -14,7 +14,7 @@ export default function About() {
 
               <div className="team-item col-lg-3 col-md-6 mb-4">
                 <div className="team-img mx-auto">
-                  <img className="rounded-circle w-100 h-100" src="/assets/images/IMG-1973.JPG" alt="Team Member 1" style={{ objectFit: 'cover' }} />
+                  <img className="rounded-circle w-100 h-100" src="/images/IMG-1973.JPG" alt="Team Member 1" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="position-relative text-center bg-light rounded px-4 py-5" style={{ marginTop: '-100px' }}>
                   <h3 className="font-weight-bold mt-5 mb-3 pt-5">Joshua Arceo</h3>

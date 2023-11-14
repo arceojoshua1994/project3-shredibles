@@ -15,7 +15,7 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$48</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="./assets/images/products/Whey-Out Whey Protein.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Whey-Out Whey Protein.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Whey-Out Protein</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
@@ -28,7 +28,7 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$30</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Blaze and Glazed Protein Donuts 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Blaze n Glazed Donuts</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
@@ -41,7 +41,7 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$25</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Puff-Puff Pass Cream Puffs 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Puff Pass Cream Puffs</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
@@ -54,7 +54,7 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$45</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Canna-Bulk Cookies.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Canna-Bulk Cookies</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
