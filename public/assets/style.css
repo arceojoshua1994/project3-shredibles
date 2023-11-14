@@ -10194,6 +10194,11 @@ a.title-secondary-color:hover, a.title-secondary-color:focus {
   color: #6BBF59;
 }
 
+.team-container {
+  display: inline;
+  display: flex;
+}
+
 
 
 
