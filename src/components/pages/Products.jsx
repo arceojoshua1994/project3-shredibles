@@ -67,9 +67,9 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$60</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Lift3d 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
-              <h5 className="font-weight-bold mb-4">LIFT3D Pre Workout</h5>
+              <h5 className="font-weight-bold mb-4">LIFT3D Pre Workout Lollipops</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Products() {
                 <h4 className="font-weight-bold text-white mb-0">$50</h4>
               </div>
               <div className="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style={{ width: '150px', height: '150px' }}>
-                <img className="rounded-circle w-100 h-100" src="img/product-1.jpg" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
+                <img className="rounded-circle w-100 h-100" src="/images/products/Gym-Rat Ganja Gummies 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Gym-Rat Post-Workout Ganja Gummies</h5>
               <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
