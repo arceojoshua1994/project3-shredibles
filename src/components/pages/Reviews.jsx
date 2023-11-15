@@ -12,24 +12,24 @@ export default function Reviews() {
                   <div className="owl-carousel testimonial-carousel">
                       <div className="text-center">
                           <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                          <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                          <img className="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="Client Testimonial" />
-                          <h5 className="font-weight-bold m-0">Client Name</h5>
-                          <span>Profession</span>
+                          <h4 className="font-weight-light mb-4">Shredibles is great for recovery following brutal workouts or losses. </h4>
+                          <img className="img-fluid rounded-circle w-50 h-50 mx-auto mb-3" src="/images/mike-mcdaniel.jpeg" alt="Client Testimonial" />
+                          <h5 className="font-weight-bold m-0">Mike Mcdaniel</h5>
+                          <span>Head Coach of the Miami Dolphins</span>
                       </div>
                       <div className="text-center">
                           <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                          <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                          <img className="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="Client Testimonial" />
-                          <h5 className="font-weight-bold m-0">Client Name</h5>
-                          <span>Profession</span>
+                          <h4 className="font-weight-light mb-4">I don't work out, but I still love Shredibles lol </h4>
+                          <img className="img-fluid rounded-circle w-50 h-50 mx-auto mb-3" src="/images/seth.jpeg" alt="Client Testimonial" />
+                          <h5 className="font-weight-bold m-0">Seth Rogen</h5>
+                          <span>Entrepreneur</span>
                       </div>
                       <div className="text-center">
                           <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                          <h4 className="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                          <img className="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="Client Testimonial" />
-                          <h5 className="font-weight-bold m-0">Client Name</h5>
-                          <span>Profession</span>
+                          <h4 className="font-weight-light mb-4">"I recently tried the 'Blaze and Glazed Protein Donuts' from the unique range of THC-infused edibles, and let me tell you, it was an experience that 'baked' my day! Not only did I get my protein fix, but I also felt more relaxed than a cat in a sunbeam.</h4>
+                          <img className="img-fluid rounded-circle w-50 h-50 mx-auto mb-3" src="/images/tucker.jpeg" alt="Client Testimonial" />
+                          <h5 className="font-weight-bold m-0">T Swizzle</h5>
+                          <span>Software Engineer</span>
                       </div>
                   </div>
               </div>

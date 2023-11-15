@@ -15,7 +15,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="carousel-item active">
+          <div className="carousel-item">
             <img className="w-100" src="/images/products/Blaze and Glazed Protein Donuts.png" alt="Carousel 2" />
             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
               <div className="p-3" style={{ maxWidth: '900px' }}>
