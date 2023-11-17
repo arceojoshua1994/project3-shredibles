@@ -8,13 +8,13 @@ export default function Login() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-9">
-            <div className="bg-light rounded p-5">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" noValidate>
 
-                {/* Log In Form */}
-                <h2 className="text-center mb-4">Log In</h2>
+          {/* Log In Card */}
+          <div className="col-lg-4">
+            <div className="bg-light rounded p-5">
+              <h2 className="text-center mb-4">Shopped with us before?</h2>
+              <h4 className="text-center mb-4">Log In Below</h4>
+              <form name="sentMessage" id="contactForm" noValidate>
                 <div className="form-row">
                   <div className="col-sm-12 control-group">
                     <input type="email" className="form-control p-4" id="login-email" placeholder="Your Email" required />
@@ -26,19 +26,22 @@ export default function Login() {
                 <div className="text-center mt-4">
                   <button className="btn btn-primary btn-block py-3 px-5" type="submit">Log In</button>
                 </div>
+              </form>
+            </div>
+          </div>
 
-
-                {/* Divider */}
-                <hr className="my-5" />
-
-                {/* Sign Up Form */}
-                <h2 className="text-center mb-4">Don't Have an Account? Sign Up Below</h2>
+          {/* Sign Up Card */}
+          <div className="col-lg-4">
+            <div className="bg-light rounded p-5">
+              <h2 className="text-center mb-4">Don't Have an Account?</h2>
+              <h4 className="text-center mb-4">Sign Up Below</h4>
+              <form name="sentMessage" id="contactForm" noValidate>
                 <div className="form-row">
                   <div className="col-sm-6 control-group">
-                    <input type="text" className="form-control p-4" id="signup-name" placeholder="Your Name" required />
+                    <input type="text" className="form-control p-4" id="signup-name" placeholder="Name" required />
                   </div>
                   <div className="col-sm-6 control-group">
-                    <input type="email" className="form-control p-4" id="signup-email" placeholder="Your Email" required />
+                    <input type="email" className="form-control p-4" id="signup-email" placeholder="Email" required />
                   </div>
                 </div>
                 <div className="control-group">
@@ -47,13 +50,10 @@ export default function Login() {
                 <div className="text-center mt-4">
                   <button className="btn btn-primary btn-block py-3 px-5" type="submit">Sign Up</button>
                 </div>
-
-
-
-
               </form>
             </div>
           </div>
+
         </div>
       </div>
     </div>

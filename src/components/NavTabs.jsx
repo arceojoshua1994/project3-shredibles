@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             <i className="fa fa-shopping-cart"></i>
                         </a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" href="#Help">Login</a>
+                        <a className="text-white px-3" href="#Login" onClick={() => handlePageChange('Login')} >Login</a>
                        
                     </div>
                 </div>
@@ -63,9 +63,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                         <h1 className="m-0 display-4 title-color"><span className="title-secondary-color">SHRED</span>ibles</h1>
                     </a>
                     <div className="navbar-nav mr-auto py-0">
+                        <a href="#Gallery" onClick={() => handlePageChange('Gallery')} className="nav-item nav-link">Gallery</a>
                         <a href="#Reviews" onClick={() => handlePageChange('Reviews')} className="nav-item nav-link">Reviews</a>
-                        
-                        <a href="#Login" onClick={() => handlePageChange('Login')} className="nav-item nav-link">Login</a>
                         <a href="#About" onClick={() => handlePageChange('About')} className="nav-item nav-link">About</a>
                     </div>
                 </div>

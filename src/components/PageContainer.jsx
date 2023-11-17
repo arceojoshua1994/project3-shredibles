@@ -3,6 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
+import Gallery from './pages/Gallery';
 import Reviews from './pages/Reviews';
 import Categories from './pages/Categories';
 import Login from './pages/Login';
@@ -25,6 +26,10 @@ export default function PageContainer() {
 
     if (currentPage === 'Reviews') {
       return <Reviews />;
+    }
+
+    if (currentPage === 'Gallery') {
+      return <Gallery />;
     }
 
     if (currentPage === 'Categories') {
