@@ -8,6 +8,7 @@ export default function Reviews() {
           </div>
         </div>
         <div className="row">
+
           {/* Review 1 */}
           <div className="col-md-4 d-flex align-items-stretch">
             <div className="card text-center shadow mb-4">
@@ -46,6 +47,7 @@ export default function Reviews() {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

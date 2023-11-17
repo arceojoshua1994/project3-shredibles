@@ -9,11 +9,12 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className="row">
                 <div className="top-links col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div className="d-inline-flex align-items-center">
-                        <a className="text-white pr-3" href="#FAQ">FAQs</a>
+                    <a className="text-white px-3" href="">
+                            <i className="fa fa-shopping-cart"></i>
+                        </a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" href="#Help">Help</a>
-                        <span className="text-white">|</span>
-                        <a className="text-white pl-3" href="#Support">Support</a>
+                        <a className="text-white px-3" href="#Help">Login</a>
+                       
                     </div>
                 </div>
                 <div className="col-md-6 text-center text-lg-right">
@@ -54,7 +55,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto py-0">
                         <a href="#Home" onClick={() => handlePageChange('Home')} className="nav-item nav-link active">Home</a>
-                        <a href="#About" onClick={() => handlePageChange('About')} className="nav-item nav-link">About</a>
+                        <a href="#Categories" onClick={() => handlePageChange('Categories')} className="nav-item nav-link">Categories</a>
+                      
                         <a href="#Products" onClick={() => handlePageChange('Products')} className="nav-item nav-link">Products</a>
                     </div>
                     <a href="index.html" className="navbar-brand mx-5 d-none d-lg-block">
@@ -62,8 +64,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </a>
                     <div className="navbar-nav mr-auto py-0">
                         <a href="#Reviews" onClick={() => handlePageChange('Reviews')} className="nav-item nav-link">Reviews</a>
-                        <a href="#Gallery" onClick={() => handlePageChange('Gallery')} className="nav-item nav-link">Gallery</a>
+                        
                         <a href="#Login" onClick={() => handlePageChange('Login')} className="nav-item nav-link">Login</a>
+                        <a href="#About" onClick={() => handlePageChange('About')} className="nav-item nav-link">About</a>
                     </div>
                 </div>
             </nav>

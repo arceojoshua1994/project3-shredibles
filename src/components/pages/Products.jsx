@@ -18,7 +18,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Whey-Out Whey Protein.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Whey-Out Protein</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Blaze and Glazed Protein Donuts 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Blaze n Glazed Donuts</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Puff-Puff Pass Cream Puffs 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Puff Pass Cream Puffs</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Canna-Bulk Cookies.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Canna-Bulk Cookies</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Lift3d 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">LIFT3D Pre Workout Lollipops</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/Gym-Rat Ganja Gummies 2.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Gym-Rat Post-Workout Ganja Gummies</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/herbal-hemp.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Herbal Hemp Protein Bars (Vegan)</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
@@ -109,7 +109,7 @@ export default function Products() {
                 <img className="rounded-circle w-100 h-100" src="/images/products/green-ganja.png" alt="Vanilla Ice Cream" style={{ objectFit: 'cover' }} />
               </div>
               <h5 className="font-weight-bold mb-4">Green Ganja Avocado Oil (Vegan)</h5>
-              <a href="#" className="btn btn-sm btn-secondary">Order Now</a>
+              <a href="#" className="btn btn-sm btn-secondary">Add to Cart</a>
             </div>
           </div>
 
