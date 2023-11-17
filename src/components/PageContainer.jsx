@@ -5,7 +5,7 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Reviews from './pages/Reviews';
 import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
+import Login from './pages/Login';
 import Footer from './Footer';
 
 export default function PageContainer() {
@@ -31,8 +31,8 @@ export default function PageContainer() {
       return <Gallery />;
     }
 
-    if (currentPage === 'Contact') {
-      return <Contact />;
+    if (currentPage === 'Login') {
+      return <Login />;
     }
 
   };

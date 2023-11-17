@@ -63,7 +63,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     <div className="navbar-nav mr-auto py-0">
                         <a href="#Reviews" onClick={() => handlePageChange('Reviews')} className="nav-item nav-link">Reviews</a>
                         <a href="#Gallery" onClick={() => handlePageChange('Gallery')} className="nav-item nav-link">Gallery</a>
-                        <a href="#Contact" onClick={() => handlePageChange('Contact')} className="nav-item nav-link">Contact</a>
+                        <a href="#Login" onClick={() => handlePageChange('Login')} className="nav-item nav-link">Login</a>
                     </div>
                 </div>
             </nav>
