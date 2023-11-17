@@ -28,7 +28,7 @@ export default function About() {
               {/* Team Member 2 */}
               <div className="service-item col-lg-3 col-md-6 mb-4">
                 <div className="service-img mx-auto">
-                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg" alt="Christian Flores" style={{ objectFit: 'cover' }} />
+                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="/images/team/christian.png" alt="Christian Flores" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
                   <h3 className="font-weight-bold mt-5 mb-3 pt-5">Christian Flores</h3>
@@ -44,7 +44,7 @@ export default function About() {
               {/* Team Member 3 */}
               <div className="service-item col-lg-3 col-md-6 mb-4">
                 <div className="service-img mx-auto">
-                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" alt="Lina Quintana" style={{ objectFit: 'cover' }} />
+                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="/images/team/lina.png" alt="Lina Quintana" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
                   <h3 className="font-weight-bold mt-5 mb-3 pt-5">Lina Quintana</h3>
@@ -60,7 +60,7 @@ export default function About() {
               {/* Team Member 4 */}
               <div className="service-item col-lg-3 col-md-6 mb-4">
                 <div className="service-img mx-auto">
-                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" alt="Jusu Karneh" style={{ objectFit: 'cover' }} />
+                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="/images/team/jusu.png" alt="Jusu Karneh" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
                   <h3 className="font-weight-bold mt-5 mb-3 pt-5">Jusu Karneh</h3>
