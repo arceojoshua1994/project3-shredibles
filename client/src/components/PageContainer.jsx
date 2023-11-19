@@ -3,9 +3,10 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
-import Reviews from './pages/Reviews';
 import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
+import Reviews from './pages/Reviews';
+import Categories from './pages/Categories';
+import Login from './pages/Login';
 import Footer from './Footer';
 
 export default function PageContainer() {
@@ -31,8 +32,12 @@ export default function PageContainer() {
       return <Gallery />;
     }
 
-    if (currentPage === 'Contact') {
-      return <Contact />;
+    if (currentPage === 'Categories') {
+      return <Categories />;
+    }
+
+    if (currentPage === 'Login') {
+      return <Login />;
     }
 
   };
