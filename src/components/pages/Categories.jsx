@@ -1,4 +1,4 @@
-export default function Categories() {
+export default function Categories({ currentPage, handlePageChange }) {
   return (
       <div className="container-fluid py-5">
           <div className="container py-5">
@@ -13,7 +13,7 @@ export default function Categories() {
                   <div className="col-lg-4 col-md-6 p-1 portfolio-item first">
                       <div className="position-relative overflow-hidden">
                           <img className="img-fluid w-100" src="/images/category/elevate.png" alt="Portfolio 1" />
-                          <a className="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                          <a className="portfolio-btn" href="#Elevate" onClick={() => handlePageChange('Elevate')} data-lightbox="portfolio">
                               <i className="fa fa-plus text-primary" style={{ fontSize: '60px' }}></i>
                           </a>
                       </div>
