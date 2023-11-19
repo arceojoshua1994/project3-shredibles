@@ -9,7 +9,7 @@ export default function Gallery() {
               </div>
               <div className="row">
                   <div className="col-12 text-center">
-                      <ul className="list-inline mb-4 pb-2" id="portfolio-filters">
+                      <ul className="list-inline mb-4 pb-2" id="portfolio-flters">
                           <li className="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
                           <li className="btn btn-sm btn-outline-primary m-1" data-filter=".first">Our Home</li>
                           <li className="btn btn-sm btn-outline-primary m-1" data-filter=".second">Products</li>
@@ -28,7 +28,7 @@ export default function Gallery() {
                       </div>
                   </div>
                   
-                  <div className="col-lg-4 col-md-6 p-0 portfolio-item first">
+                  <div className="col-lg-4 col-md-6 p-0 portfolio-item .first">
                       <div className="position-relative overflow-hidden">
                           <img className="img-fluid w-100" src="/images/products/office.png" alt="Portfolio 1" />
                           <a className="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
