@@ -8,6 +8,7 @@ import Reviews from './pages/Reviews';
 import Categories from './pages/Categories';
 import Login from './pages/Login';
 import Footer from './Footer';
+import Elevate from './pages/Elevate';
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -38,6 +39,10 @@ export default function PageContainer() {
 
     if (currentPage === 'Login') {
       return <Login />;
+    }
+
+    if (currentPage === 'Elevate') {
+      return <Elevate />;
     }
 
   };
