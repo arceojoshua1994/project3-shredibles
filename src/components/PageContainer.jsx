@@ -40,9 +40,6 @@ export default function PageContainer() {
       return <Login />;
     }
 
-    if (currentPage === 'Elevate') {
-      return <Elevate />;
-    }
 
   };
 

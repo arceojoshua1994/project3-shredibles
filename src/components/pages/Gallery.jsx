@@ -10,8 +10,8 @@ export default function Gallery() {
                 <div className="row">
                     <div className="col-12 text-center">
                         <ul className="list-inline mb-4 pb-2" id="portfolio-filters">
-                            <li className="btn btn-sm btn-outline-primary m-1 active" data-filter=".first">Facilities</li>
-                            <li className="btn btn-sm btn-outline-primary m-1" data-filter=".second">Stimulate</li>
+                            <li className="btn btn-sm btn-outline-primary m-1 active" data-filter=".first">All</li>
+                            <li className="btn btn-sm btn-outline-primary m-1" data-filter=".second">Elevate</li>
                             <li className="btn btn-sm btn-outline-primary m-1" data-filter=".third">Recover</li>
                             <li className="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Vegan</li>
                         </ul>
