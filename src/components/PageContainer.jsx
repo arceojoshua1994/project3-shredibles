@@ -5,10 +5,9 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Gallery from './pages/Gallery';
 import Reviews from './pages/Reviews';
-import Categories from './pages/Categories';
 import Login from './pages/Login';
 import Footer from './Footer';
-import Elevate from './pages/Elevate';
+import Categories from './pages/Categories';
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

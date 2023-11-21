@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             <i className="fa fa-shopping-cart"></i>
                         </a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" href="#Login" onClick={() => handlePageChange('Login')} >Login</a>
+                        <a className="text-white px-3" onClick={() => handlePageChange('Login')} >Login</a>
                        
                     </div>
                 </div>
