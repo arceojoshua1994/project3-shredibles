@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import Gallery from './pages/Gallery';
-import Reviews from './pages/Reviews';
-import Login from './pages/Login';
+import Home from './Home';
+import About from './About';
+import Products from './Products';
+import Gallery from './Gallery';
+import Reviews from './Reviews';
+import Categories from './Categories';
+import Login from './Login';
 import Footer from './Footer';
 import Categories from './pages/Categories';
 
@@ -34,6 +35,10 @@ export default function PageContainer() {
 
     if (currentPage === 'Categories') {
       return <Categories />;
+    }
+
+    if (currentPage === 'Login') {
+      return <Login />;
     }
 
     if (currentPage === 'Login') {
