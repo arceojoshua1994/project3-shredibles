@@ -8,7 +8,7 @@ import Reviews from './Reviews';
 import Categories from './Categories';
 import Login from './Login';
 import Footer from './Footer';
-import Categories from './pages/Categories';
+import Categories from '../pages/Categories';
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
