@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import Gallery from './pages/Gallery';
-import Reviews from './pages/Reviews';
-import Categories from './pages/Categories';
-import Login from './pages/Login';
-import Footer from './pages/Footer';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Products from '../pages/Products';
+import Gallery from '../pages/Gallery';
+import Reviews from '../pages/Reviews';
 import Categories from '../pages/Categories';
+import Login from '../pages/Login';
+import Footer from '../components/Footer';
+
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

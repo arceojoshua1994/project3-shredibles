@@ -11,13 +11,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
     "@apollo/client": "^3.8.7",
->>>>>>> ef76dba100047e82456783f9258f55e913089e68
     "bootstrap": "^5.3.2",
+    "graphql": "^16.8.1",
+    "jwt-decode": "^4.0.0",
+    "lightbox": "^0.5.0",
+    "owl-carousel": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
