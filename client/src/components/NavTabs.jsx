@@ -9,11 +9,11 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className="row">
                 <div className="top-links col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div className="d-inline-flex align-items-center">
-                    <a className="text-white px-3" href="">
-                            <i className="fa fa-shopping-cart"></i>
+                    <a className="text-white px-3" href="#Cart" onClick={() => handlePageChange('Cart')}>
+                            <i className="fa fa-shopping-cart" ></i>
                         </a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" onClick={() => handlePageChange('../pages/Login')} >Login</a>
+                        <a className="text-white px-3" onClick={() => handlePageChange('Login')} >Login</a>
                        
                     </div>
                 </div>
@@ -54,18 +54,18 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </button>
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto py-0">
-                        <a href="#Home" onClick={() => handlePageChange('../pages/Home')} className="nav-item nav-link active">Home</a>
-                        <a href="#Categories" onClick={() => handlePageChange('../pages/Categories')} className="nav-item nav-link">Categories</a>
+                        <a href="#Home" onClick={() => handlePageChange('Home')} className="nav-item nav-link active">Home</a>
+                        <a href="#Categories" onClick={() => handlePageChange('Categories')} className="nav-item nav-link">Categories</a>
                       
-                        <a href="#Products" onClick={() => handlePageChange('../pages/Products')} className="nav-item nav-link">Products</a>
+                        <a href="#Products" onClick={() => handlePageChange('Products')} className="nav-item nav-link">Products</a>
                     </div>
                     <a href="index.html" className="navbar-brand mx-5 d-none d-lg-block">
                         <h1 className="m-0 display-4 title-color"><span className="title-secondary-color">SHRED</span>ibles</h1>
                     </a>
                     <div className="navbar-nav mr-auto py-0">
-                        <a href="#Gallery" onClick={() => handlePageChange('../pages/Gallery')} className="nav-item nav-link">Gallery</a>
-                        <a href="#Reviews" onClick={() => handlePageChange('../pages/Reviews')} className="nav-item nav-link">Reviews</a>
-                        <a href="#About" onClick={() => handlePageChange('../pages/About')} className="nav-item nav-link">About</a>
+                        <a href="#Gallery" onClick={() => handlePageChange('Gallery')} className="nav-item nav-link">Gallery</a>
+                        <a href="#Reviews" onClick={() => handlePageChange('Reviews')} className="nav-item nav-link">Reviews</a>
+                        <a href="#About" onClick={() => handlePageChange('About')} className="nav-item nav-link">About</a>
                     </div>
                 </div>
             </nav>

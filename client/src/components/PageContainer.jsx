@@ -8,6 +8,7 @@ import Reviews from '../pages/Reviews';
 import Categories from '../pages/Categories';
 import Login from '../pages/Login';
 import Footer from '../components/Footer';
+import Cart from '../pages/Cart';
 
 
 export default function PageContainer() {
@@ -41,10 +42,9 @@ export default function PageContainer() {
       return <Login />;
     }
 
-    if (currentPage === 'Login') {
-      return <Login />;
+    if (currentPage === 'Cart') {
+      return <Cart />;
     }
-
 
   };
 
