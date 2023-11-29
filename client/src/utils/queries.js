@@ -49,22 +49,17 @@ export const QUERY_CATEGORIES = gql`
 `;
 
 export const QUERY_USER = gql`
-  {
-    user {
-      firstName
-      lastName
-      orders {
-        _id
-        purchaseDate
-        products {
-          _id
-          name
-          description
-          price
-          quantity
-          image
-        }
+query User {
+  user {
+    orders {
+      purchaseDate
+      products {
+        quantity
+        price
       }
     }
+    lastName
+    firstName
   }
+}
 `;
