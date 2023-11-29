@@ -1,5 +1,5 @@
 const Tech = require('./Tech');
-const Matchup = require('./Matchup');
+const Matchup = require('./cart');
 const User = require('./User');
 const Product = require('./Product');
 const Category = require('./Category');
