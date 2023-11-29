@@ -1,4 +1,4 @@
-import PageContainer from "./pages/PageContainer";
+import PageContainer from "./components/PageContainer";
 
 const App = () => <PageContainer />;
 
