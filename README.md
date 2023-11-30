@@ -1,60 +1,74 @@
-# project3-shredibles
+# Shredibles 
 
-## Description
+Welcome to Shredibles, a MERN-stack single-page application aimed at addressing real-world challenges related to high-protein marijuana-infused products. Shredibles focuses on providing a user-friendly platform that offers a range of products, including protein shakes, gummies, lollipops, avocado oil, cookies, donuts, and protein bars, all designed to aid in recovery.
 
-In this last and final project, we decided to agree on developing an e-commerce webiste. One that sells products for the target audience of fitness enthusiast with a combination of cannabis. This website crosses all the marks of using the required database of GraphQL along with Node.js and Express.js server. Due to previous lessons, we were able to re-engineer previous code to fit the ideal website of our dreams. 
+## Table of Contents
 
-## Table of Contents (Optional)
+* [Technologies](#technologies)
+* [Features Real-World Data Interaction](#features-real-world-data-interaction)
+* [User Authentication](#user-authentication)
+* [Responsive and Interactive UI](#responsive-and-interactive-ui)
+* [Agile Development Methodologies](#agile-development-methodologies)
+* [Deployment](#deployment)
+* [Usage](#usage)
+* [Conclusion](#conclusion)
+* [Contributions](#contributions)
+* [License](#license)
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+## Technologies:
+- Front End: React
+- Back End: GraphQL, Node.js, Express.js
+- Database: MongoDB with Mongoose ODM
+- Authentication: JWT
+- Deployment: Netlify
+- API Protection: Sensitive API key information secured on the server
 
-## Installation
+## Features Real-World Data Interaction:
 
-In order to create this application with checking off all the requirements criteria for this project, you will need:
+Utilized GraphQL queries and mutations for retrieving, adding, updating, and deleting data.
+Implement seamless interaction with real-world data to enhance user experience.
 
-* Install 'node modules' folder by using command 'npm install' on your vs code terminal. You may refer to link presented to assist in downloading Node.js package manager and npm.
+## User Authentication:
+Ensure user-focused security with JWT-based authentication.
+Prioritize user data protection and privacy.
 
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjagaG_j9WBAxUPl2oFHbGXCMsQFnoECBgQAQ&url=https%3A%2F%2Fdeveloper.ibm.com%2Ftutorials%2Flearn-nodejs-installing-node-nvm-and-vscode%2F&usg=AOvVaw06lXFtvSpYJu5Tj4EfwtIr&opi=89978449
+## Responsive and Interactive UI:
 
-* Use a '.gitignore' file when creating your repository to ensure certain file are not tracked by Git and to stop the file from being reintroduced in later commits. 
+Developed a polished, responsive, and interactive user interface to enhance user engagement.
+Accept and respond to user input for a dynamic user experience.
 
-* Install 'package-lock.json'
+## Agile Development Methodologies:
 
-* Install MongoDB for the database.
+Leveraged agile development methodologies.
+Managed project code using GitHub, facilitating collaboration within the team.
 
-## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Deployment:
+Experience Shredibles live on Netlify: [Shredibles](https://resonant-twilight-56662d.netlify.app/#Products)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Usage:
+ ![Shredibles Screenshot 1](./client/public/images/Shredibles%201.png) 
+ ![Shredibles Screenshot 2](./client/public/images/Shredibles%202.png) 
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+## Conclusion:
 
-## Credits
+Shredibles demonstrates our team's proficiency in MERN-stack development, user authentication, and agile methodologies. The unique focus on high-protein marijuana-infused products sets this project apart, making it an excellent addition to our portfolio.
 
-```md
-All the credits go to the dedicating, incredible team. Without them Shredibles wouldn't have been made possible:
+For inquiries, feel free to contact us at [team@shredibles.com].
 
-*Christian Flores
-https://github.com/AmbitiousFlo
+Thank you for exploring Shredibles - where recovery meets innovation!
 
-*Joshua Arce
-https://github.com/arceojoshua1994
 
-*Jusu Karneh
-https://github.com/jusukarneh
 
-*Lina Quintana
-https://github.com/LinaQ97
-```
+## Contributions:
+
+- Joshua Arceo: Front-End, and assisted with the Back-End/Server Side
+
+- Christian Flores: Back-End/Server Side, and assisted with Front End
+
+- Lina Quintana: Power Point
+
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
+This project is open-source and available under the [MIT License](LICENSE). You are free to use, modify, and distribute it according to the terms of the license.
