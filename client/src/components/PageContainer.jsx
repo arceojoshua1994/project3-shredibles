@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './Home';
-import About from './About';
-import Products from './Products';
-import Gallery from './Gallery';
-import Reviews from './Reviews';
-import Categories from './Categories';
-import Login from './Login';
-import Footer from './Footer';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Products from '../pages/Products';
+import Gallery from '../pages/Gallery';
+import Reviews from '../pages/Reviews';
 import Categories from '../pages/Categories';
+import Login from '../pages/Login';
+import Footer from '../components/Footer';
+import Cart from '../pages/Cart';
+
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -41,10 +42,9 @@ export default function PageContainer() {
       return <Login />;
     }
 
-    if (currentPage === 'Login') {
-      return <Login />;
+    if (currentPage === 'Cart') {
+      return <Cart />;
     }
-
 
   };
 

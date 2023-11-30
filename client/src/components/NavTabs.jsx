@@ -9,11 +9,11 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className="row">
                 <div className="top-links col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div className="d-inline-flex align-items-center">
-                    <a className="text-white px-3" href="">
-                            <i className="fa fa-shopping-cart"></i>
+                    <a className="text-white px-3" href="#Cart" onClick={() => handlePageChange('Cart')}>
+                            <i className="fa fa-shopping-cart" ></i>
                         </a>
                         <span className="text-white">|</span>
-                        <a className="text-white px-3" onClick={() => handlePageChange('../pages/Login')} >Login</a>
+                        <a className="text-white px-3" onClick={() => handlePageChange('Login')} >Login</a>
                        
                     </div>
                 </div>
