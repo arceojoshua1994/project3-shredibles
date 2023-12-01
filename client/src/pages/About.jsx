@@ -60,10 +60,10 @@ export default function About() {
               {/* Team Member 4 */}
               <div className="service-item col-lg-3 col-md-6 mb-4">
                 <div className="service-img mx-auto">
-                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="/images/team/jusu.png" alt="Jusu Karneh" style={{ objectFit: 'cover' }} />
+                  <img className="rounded-circle w-100 h-100 bg-light p-3" src="#" alt="Somebody That I Used to Know" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="position-relative text-center bg-light rounded p-4 pb-5" style={{ marginTop: '-75px' }}>
-                  <h3 className="font-weight-bold mt-5 mb-3 pt-5">Jusu Karneh</h3>
+                  <h3 className="font-weight-bold mt-5 mb-3 pt-5">Team Member</h3>
                   <h6 className="text-uppercase text-muted mb-4">Front-End, Recruiting</h6>
                   <div className="d-flex justify-content-center pt-1">
                     <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-instagram"></i></a>
