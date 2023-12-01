@@ -7,8 +7,7 @@ export default function Categories() {
                     <h1 className="section-title position-relative text-center mb-5">Categories</h1>
                 </div>
             </div>
-            {/* Category 1: Elevate */}
-            <div className="row bg-primary mb-4"> {/* Added margin bottom */}
+            <div className="row bg-primary mb-4"> 
                 <div className="col-md-6 px-0" style={{ minHeight: '500px' }}>
                     <div className="position-relative h-100">
                         <img className="position-absolute w-100 h-100" src="/images/category/elevate.png" alt="Elevate" style={{ objectFit: 'cover' }} />
